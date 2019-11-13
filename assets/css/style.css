@@ -4,3 +4,14 @@ body {
     background-size: cover;
     height: 600px;
 }
+
+#start-button {
+text-align: right;
+}
+
+#time-remaining {
+    text-align: left;
+    padding-top: 100px;
+    color: rgb(123, 255, 0);   
+    font-family: 'Wallpoet', cursive;
+}
