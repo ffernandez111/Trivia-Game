@@ -53,3 +53,10 @@ body {
     font-family: 'Wallpoet', cursive;
     padding-top: 10px;
 }
+
+#player-score {
+    color: yellowgreen;  
+    font-family: 'Wallpoet', cursive;
+    padding-top: 55px;
+}
+}
