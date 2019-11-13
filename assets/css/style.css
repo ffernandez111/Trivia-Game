@@ -18,12 +18,19 @@ body {
 
 #time-remaining {
     text-align: left;
-    padding-top: 100px;
+    padding-top: 50px;
     color: yellowgreen;  
     font-family: 'Wallpoet', cursive;
 }
 
-#question {
+#question-1 {
+    text-align: left;
+    padding-top: 10px;
+    color: yellowgreen;  
+    font-family: 'Wallpoet', cursive; 
+}
+
+#question-2 {
     text-align: left;
     padding-top: 10px;
     color: yellowgreen;  
@@ -33,30 +40,25 @@ body {
 #answer-a {
     color: yellowgreen;  
     font-family: 'Wallpoet', cursive;
-    padding-top: 10px;
 }
 
 #answer-b {
     color: yellowgreen;  
     font-family: 'Wallpoet', cursive;
-    padding-top: 10px;
 }
 
 #answer-c {
     color: yellowgreen;  
     font-family: 'Wallpoet', cursive;
-    padding-top: 10px;
 }
 
 #answer-d {
     color: yellowgreen;  
     font-family: 'Wallpoet', cursive;
-    padding-top: 10px;
 }
 
 #player-score {
     color: yellowgreen;  
     font-family: 'Wallpoet', cursive;
-    padding-top: 55px;
-}
+    padding-top: 65px;
 }
