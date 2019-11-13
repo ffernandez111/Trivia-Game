@@ -24,6 +24,7 @@ body {
 #time-remaining {
     text-align: left;
     padding-top: 50px;
+    padding-left: 70px;
     color: yellowgreen;  
     font-family: 'Wallpoet', cursive;
 }
@@ -31,6 +32,7 @@ body {
 #question-1 {
     text-align: left;
     padding-top: 10px;
+    padding-left: 70px;
     color: yellowgreen;  
     font-family: 'Wallpoet', cursive; 
 }
@@ -38,6 +40,7 @@ body {
 #question-2 {
     text-align: left;
     padding-top: 10px;
+    padding-left: 70px;
     color: yellowgreen;  
     font-family: 'Wallpoet', cursive; 
 }
@@ -45,25 +48,30 @@ body {
 #answer-a {
     color: yellowgreen;  
     font-family: 'Wallpoet', cursive;
+    padding-left: 70px;
 }
 
 #answer-b {
     color: yellowgreen;  
     font-family: 'Wallpoet', cursive;
+    padding-left: 70px;
 }
 
 #answer-c {
     color: yellowgreen;  
     font-family: 'Wallpoet', cursive;
+    padding-left: 70px;
 }
 
 #answer-d {
     color: yellowgreen;  
     font-family: 'Wallpoet', cursive;
+    padding-left: 70px;
 }
 
 #player-score {
     color: yellowgreen;  
     font-family: 'Wallpoet', cursive;
     padding-top: 65px;
+    padding-left: 70px;
 }
