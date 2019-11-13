@@ -16,6 +16,11 @@ body {
     margin:10px
 }
 
+#start-button:hover {
+    opacity: 0.5;
+}
+
+
 #time-remaining {
     text-align: left;
     padding-top: 50px;
