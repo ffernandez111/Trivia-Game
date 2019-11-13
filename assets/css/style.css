@@ -6,12 +6,26 @@ body {
 }
 
 #start-button {
-text-align: right;
+    text-align: right;
+    background-color: #000000;
+    color: yellowgreen;  
+    padding: 10px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    margin:10px
 }
 
 #time-remaining {
     text-align: left;
     padding-top: 100px;
-    color: rgb(123, 255, 0);   
+    color: yellowgreen;  
     font-family: 'Wallpoet', cursive;
+}
+
+#question {
+    text-align: left;
+    padding-top: 10px;
+    color: yellowgreen;  
+    font-family: 'Wallpoet', cursive; 
 }
