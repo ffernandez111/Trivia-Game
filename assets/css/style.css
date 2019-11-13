@@ -1,5 +1,6 @@
 body {
-    background: url("../images/brain-wallpaper.jpg");
+    background: url("../images/trivia-background.jpg");
     background-position: top;
     background-size: cover;
+    height: 600px;
 }
