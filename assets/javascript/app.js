@@ -52,6 +52,28 @@
 
 
 
-//stop funtction for stop button
+  //make js stop function for stop button
+
+
+
+
+
+  //player response code here
+//function responses() {
+  //var userAnswer;
+  
+  
+  // if user click submit button without selecting any option, alert box should be say "please select choice answer".
+  
+  // If Correct answer
+  //if(userAnswer === ) {
+     alert("Answer is correct!");
+  }
+  // If incorrect answer
+  //else {
+     alert("Answer is wrong!");
+  }
+  
+}
 
 

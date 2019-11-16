@@ -35,6 +35,22 @@ body {
     opacity: 0.5;
 }
 
+#submit-button {
+    text-align: right;
+    float: right;
+    background-color: #000000;
+    color: yellowgreen;  
+    padding: 10px;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    margin:10px
+}
+
+#submit-button:hover {
+    opacity: 0.5;
+}
+
 #time-remaining {
     text-align: left;
     padding-top: 55px;
@@ -86,6 +102,6 @@ body {
 #player-score {
     color: yellowgreen;  
     font-family: 'Wallpoet', cursive;
-    padding-top: 65px;
+    padding-top: 55px;
     padding-left: 72px;
 }
