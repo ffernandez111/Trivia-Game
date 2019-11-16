@@ -20,6 +20,20 @@ body {
     opacity: 0.5;
 }
 
+#stop-button {
+    text-align: right;
+    background-color: #000000;
+    color: yellowgreen;  
+    padding: 10px;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    margin:10px
+}
+
+#stop-button:hover {
+    opacity: 0.5;
+}
 
 #time-remaining {
     text-align: left;

@@ -27,7 +27,7 @@
         number--;
 
         //  Show the number in the #show-number tag.
-        $("#time-remaining").html("<h1>" + number + "</h1>");
+        $("#time").html(number);
 
 
         //  Once number hits zero...
@@ -50,9 +50,8 @@
         clearInterval(intervalId);
 }
 
-//  Execute the run function.
-run();
 
 
+//stop funtction for stop button
 
 
