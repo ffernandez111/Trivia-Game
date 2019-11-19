@@ -60,7 +60,19 @@
           }
           }
 
-       
+         // Adding radio buttons for questions
+          $(document).ready(function(){
+            $("input[type='button']").click(function(){
+                var answerC1 = $("input[name='answer']:checked").val();
+                if(radioValue){
+                    alert("Your are correct!" + radioValue);
+                }
+            });
+        });
+
+
+
+
 
 
 

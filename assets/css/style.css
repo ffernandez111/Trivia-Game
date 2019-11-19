@@ -62,7 +62,7 @@ body {
     margin:10px
 }
 
-#reset-button:hover {
+#-button:hover {
     opacity: 0.5;
 }
 
@@ -72,6 +72,18 @@ body {
     padding-left: 72px;
     color: yellowgreen;  
     font-family: 'Wallpoet', cursive;
+}
+
+#group1 {
+    color: yellowgreen;  
+    font-family: 'Wallpoet', cursive; 
+    padding-left: 72px;
+}
+
+#group2 {
+    color: yellowgreen;  
+    font-family: 'Wallpoet', cursive; 
+    padding-left: 72px;
 }
 
 #question-1 {
