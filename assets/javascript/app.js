@@ -12,6 +12,7 @@
 
         //  When the start button gets clicked, execute the run function.
         $("#start-button").on("click", run);
+        $("#stop-button").on("click", stop);
 
         //  The run function sets an interval
         //  that runs the decrement function once a second.
