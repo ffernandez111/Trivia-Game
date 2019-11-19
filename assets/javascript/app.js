@@ -61,13 +61,8 @@
 
 
 
-  //make js stop function for stop button
 
-
-
-
-
-  //player response code here
+//player response code here
 //function responses() {
   //var userAnswer;
   
@@ -76,11 +71,11 @@
   
   // If Correct answer
   //if(userAnswer === ) {
-     alert("Answer is correct!");
+     //alert("Answer is correct!");
  // }
   // If incorrect answer
   //else {
-     alert("Answer is wrong!");
+     //alert("Answer is wrong!");
   //}
   
 //}
