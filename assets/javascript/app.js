@@ -1,8 +1,5 @@
         //create a decrementing timer for one minute
 
-
-        //  Interval Demonstration
-        //  Set our number counter to 100.
         var number = 60;
 
         //  Variable that will hold our interval ID when we execute
@@ -12,7 +9,18 @@
 
         //  When the start button gets clicked, execute the run function.
         $("#start-button").on("click", run);
+
+        //  When the stop button gets clicked, execute the stop function.
         $("#stop-button").on("click", stop);
+
+        //  The stop function
+        function stop() {
+
+          //  Clears our intervalId
+          clearInterval(intervalId);
+  }
+  
+
 
         //  The run function sets an interval
         //  that runs the decrement function once a second.
