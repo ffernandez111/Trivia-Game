@@ -68,12 +68,12 @@
   // If Correct answer
   //if(userAnswer === ) {
      alert("Answer is correct!");
-  }
+ // }
   // If incorrect answer
   //else {
      alert("Answer is wrong!");
-  }
+  //}
   
-}
+//}
 
 
