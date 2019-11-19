@@ -60,11 +60,11 @@
           }
           }
 
-         // Adding radio buttons for questions
+         // Adding radio buttons for question#1 correct answer (not done completely)
           $(document).ready(function(){
             $("input[type='button']").click(function(){
-                var answerC1 = $("input[name='answer']:checked").val();
-                if(radioValue){
+                var answer1 = $("input[name='answerC1']:checked").val();
+                if(answerC1){
                     alert("Your are correct!" + radioValue);
                 }
             });
