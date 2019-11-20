@@ -72,12 +72,15 @@
 
         //Trivia questions array
         var questionArray = [
-          ["Which of the following movies stars Leo Dicaprio?", "C: Whats Eating Gilbert Grape? "],
-          ["Which of the following movies are about politics and the U.S.?", "C: Vice "],
+          ["Which of the following movies stars Leo Dicaprio?", "Whats Eating Gilbert Grape?"],
+          ["Which of the following movies are about politics and the U.S.?", "Vice"],
        ];
 
        //Trivia questions answers array
-       
+       var answersArray = [
+        ["Transformers", "The Devil's Advocate", "Whats Eating Gilbert Grape?", "Life Of PI"],
+        ["Armageddon", "Dr. Doolittle", "Vice", "Fight Club"],
+     ]
 
 
 
