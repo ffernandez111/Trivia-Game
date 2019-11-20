@@ -72,17 +72,38 @@
 
         //Trivia questions array
         var questionArray = [
-          ["Which of the following movies stars Leo Dicaprio?", "Whats Eating Gilbert Grape?"],
-          ["Which of the following movies are about politics and the U.S.?", "Vice"],
-       ];
+          {
+              question: "Which of the following movies stars Leo Dicaprio",
+              answers: {
+                  a: 'Transformers',
+                  b: 'The Devils Advocate',
+                  c: 'Whats Eating Gilbert Grape?',
+                  d: 'Life Of PI'
+              },
+              correctAnswer: 'c'
+          },
+          {
+              question: "Which of the following movies are about politics and the U.S.?",
+              answers: {
+                  a: 'Armageddon',
+                  b: 'Dr. Doolittle',
+                  c: 'Vice',
+                  d: 'Fight Club'
+              },
+              correctAnswer: 'c'
+          }
+      ];
+         
 
-       //Trivia questions answers array
-       var answersArray = [
-        ["Transformers", "The Devil's Advocate", "Whats Eating Gilbert Grape?", "Life Of PI"],
-        ["Armageddon", "Dr. Doolittle", "Vice", "Fight Club"],
-     ]
+        //Trivia questions answers array
+       /// var answersArray = [
+       /// ["Transformers", "The Devil's Advocate", "Whats Eating Gilbert Grape?", "Life Of PI"],
+       /// ["Armageddon", "Dr. Doolittle", "Vice", "Fight Club"],
+     ///]
 
-
+        //submit button code
+        var submitButton = document.querySelector("#submit-button")
+        submitButton.addEventListener("click", showAnswer, false);
 
 
   //player response code here
