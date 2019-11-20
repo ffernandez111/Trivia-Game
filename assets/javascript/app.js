@@ -30,7 +30,10 @@
           $("#form")[0].reset();
           });});
 
-
+          
+         //submit button code
+         var submitButton = document.querySelector("#submit-button")
+         submitButton.addEventListener("click", showAnswer, false);
 
          //  The run function sets an interval
          //  that runs the decrement function once a second.
@@ -60,15 +63,7 @@
           }
           }
 
-         // Adding radio buttons for question#1 correct answer (not done completely)
-          $(document).ready(function(){
-            $("input[type='button']").click(function(){
-                var answer1 = $("input[name='answerC1']:checked").val();
-                if(answerC1){
-                    alert("Your are correct!" + radioValue);
-                }
-            });
-        });
+         
 
         //Trivia questions array
         var questionArray = [
@@ -93,35 +88,18 @@
               correctAnswer: 'c'
           }
       ];
-         
-
-        //Trivia questions answers array
-       /// var answersArray = [
-       /// ["Transformers", "The Devil's Advocate", "Whats Eating Gilbert Grape?", "Life Of PI"],
-       /// ["Armageddon", "Dr. Doolittle", "Vice", "Fight Club"],
-     ///]
-
-        //submit button code
-        var submitButton = document.querySelector("#submit-button")
-        submitButton.addEventListener("click", showAnswer, false);
 
 
-  //player response code here
-  //function responses() {
-  //var userAnswer;
-  
-  
-  // if user click submit button without selecting any option, alert box should be say "please select choice answer".
-  
-  // If Correct answer
-  //if(userAnswer === ) {
-     //alert("Answer is correct!");
-  // }
-  // If incorrect answer
-  //else {
-     //alert("Answer is wrong!");
-  //}
-  
-  //}
 
 
+// Adding radio buttons for question#1 correct answer (not done completely...attempted but unsure)
+$(document).ready(function(){
+  $("input[type='button']").click(function(){
+      var userChoice = $("input[name='answerC1']:checked").val();
+      if(userChoice == questionArray[questionCounter].correctAnswer){
+        $("#timeRemaining").empty();
+        $(".question").empty();
+        $("#startButton").empty();
+        clearInterval(clock);
+        alert("Your are correct!" + radioValue);
+    }
