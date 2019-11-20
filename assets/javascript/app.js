@@ -24,11 +24,11 @@
           }
           
          // The reset function
-         function reset() {
-          intervalId = 1;
-          number = 1;
-
-          }
+         $(document).ready(function(){
+          $("#btn").click(function(){
+          /* Single line Reset function executes on click of Reset Button */
+          $("#form")[0].reset();
+          });});
 
 
 
@@ -70,14 +70,20 @@
             });
         });
 
+        //Trivia questions array
+        var questionArray = [
+          ["Which of the following movies stars Leo Dicaprio?", "C: Whats Eating Gilbert Grape? "],
+          ["Which of the following movies are about politics and the U.S.?", "C: Vice "],
+       ];
+
+       //Trivia questions answers array
+       
 
 
 
 
-
-
-//player response code here
-//function responses() {
+  //player response code here
+  //function responses() {
   //var userAnswer;
   
   
@@ -86,12 +92,12 @@
   // If Correct answer
   //if(userAnswer === ) {
      //alert("Answer is correct!");
- // }
+  // }
   // If incorrect answer
   //else {
      //alert("Answer is wrong!");
   //}
   
-//}
+  //}
 
 
